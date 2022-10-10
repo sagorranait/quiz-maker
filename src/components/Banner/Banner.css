@@ -1,0 +1,40 @@
+.banner-area {
+    background: #FFF7DF;
+    padding: 50px 0px;
+    width: 100%;
+    height: 644px;
+}
+
+.banner-area .content {
+    height: 100%;
+}
+
+.banner-area .content h1 {
+    font-size: 60px;
+    line-height: 66px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #5C5C5C;
+}
+
+.banner-area .content h1 span {
+    color: #FFC000;
+    text-decoration: underline;
+}
+
+.banner-area .content p {
+    font-size: 17px;
+    line-height: 24px;
+    color: #5C5C5C;
+    padding: 10px 0;
+}
+
+.banner-area .image{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-area .image img{
+    width: 100%;
+    height: 100%;
+}

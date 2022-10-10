@@ -1,8 +1,11 @@
+import Banner from '../Banner/Banner'
 import './Subjects.css'
 
 const Subjects = () => {
   return (
-    <div>Subjects-s</div>
+    <>
+      <Banner/>
+    </>
   )
 }
 
