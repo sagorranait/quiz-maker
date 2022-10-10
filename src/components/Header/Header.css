@@ -1,0 +1,7 @@
+.navbar-brand span{
+    font-size: 22px;
+}
+
+#basic-navbar-nav .nav-links.active {
+    border-bottom: 1px solid #FFC000;
+}
