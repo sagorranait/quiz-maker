@@ -4,7 +4,7 @@ const QuizMakerTitle = ({title, description}) => {
   return (
     <div className='quizMaker-title text-center'>
         <h2 className='fw-bold'>{title}</h2>
-        <p>{description}</p>
+        {description && <p>{description}</p>}
     </div>
   )
 }

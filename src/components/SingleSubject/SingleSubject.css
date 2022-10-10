@@ -1,0 +1,53 @@
+.subject {
+    border: 1px solid #FF8A00;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.subject .subject-title {
+    width: 200px;
+}
+
+.subject .subject-title .subject-image {
+    background: #ffedb8;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.subject .subject-title .subject-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.subject .subject-title h3 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 175.78%;
+    color: #5C5C5C;
+}
+.subject p{
+    margin: 0;
+    font-size: 16px;
+    color: #5C5C5C;
+}
+.subject a{
+    padding: 10px 15px;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    border-radius: 100px;
+    text-decoration: none;
+}
+.single-quiz a span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.single-quiz a span svg {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
