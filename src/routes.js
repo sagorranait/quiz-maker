@@ -11,6 +11,7 @@ export const routers = createBrowserRouter([
       element: <App/>, 
       children: [
         { index: true, element: <Subjects/>, loader: quizLoader },
+        { path: 'quizzes/:quizId', element: <p>All Quiz</p> },
         { path: 'faq', element: <Faq/> },
         { path: 'analytics', element: <Analytics/> }
       ]

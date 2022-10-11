@@ -1,10 +1,9 @@
 .quiz-subjects{
     background: #fff;
-    padding: 50px 0;
 }
 
 .quiz-subjects .single-quiz{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 35px;
+    gap: 30px;
 }
