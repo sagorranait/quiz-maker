@@ -33,10 +33,16 @@
     text-align: center;
 }
 
-.quizzes-sidebar p{
+.quizzes-marks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    place-items: center;
+}
+
+.quizzes-marks p{
     font-size: 16px;
     line-height: 152.34%;
     color: #5C5C5C;
     margin-bottom: 5px;
-    text-align: center;
 }
