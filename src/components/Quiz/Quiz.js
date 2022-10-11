@@ -32,6 +32,7 @@ const Quiz = ({quizInfo, number, mark}) => {
           {options.map((option, index) => <QuizOption 
             key={index} 
             label={option} 
+            number={index}
             click = {{clicked, setClicked}}
             marks = {mark}
             answer={correctAnswer} 
