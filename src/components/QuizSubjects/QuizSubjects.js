@@ -1,5 +1,5 @@
 import './QuizSubjects.css';
-import { getQuiz } from '../../helper/api';
+import { getQuizSubjects } from '../../helper/api';
 import { useLoaderData } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 import QuizMakerTitle from '../../Layouts/Title/QuizMakerTitle';
@@ -24,8 +24,8 @@ const QuizSubjects = () => {
   )
 }
 
-export const quizLoader = () => {
- return getQuiz();
+export const subjectLoader = () => {
+ return getQuizSubjects();
 }
 
 export default QuizSubjects
