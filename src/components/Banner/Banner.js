@@ -14,7 +14,7 @@ const Banner = () => {
             </Col>
             <Col sm={12} md={6} lg={6} xl={6} xxl={6}>
               <div className='image'>
-                <img src='./images/banner.png' alt='banner_image' />
+                <img src='../images/banner.png' alt='banner_image' />
               </div>
             </Col>
           </Row>

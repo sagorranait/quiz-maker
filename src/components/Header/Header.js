@@ -7,7 +7,7 @@ const Header = () => {
     <Navbar bg="dark" variant="dark" expand="lg" className='py-2'>
       <Container>
         <Navbar.Brand>
-            <img alt="logo" src="./images/logo.png" width="30" height="30" className="d-inline-block align-top"/>
+            <img alt="logo" src="../images/logo.png" width="30" height="30" className="d-inline-block align-top"/>
             <span className='ps-2 fw-bold'>QuizMaker</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
