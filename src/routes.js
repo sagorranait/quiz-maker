@@ -5,11 +5,13 @@ import Subjects from "./components/Subjects/Subjects";
 import Analytics from "./components/Analytics/Analytics";
 import { subjectLoader } from "./components/QuizSubjects/QuizSubjects";
 import Quizzes, { quizLoader } from "./components/Quizzes/Quizzes";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 export const routers = createBrowserRouter([
     {
       path: '/', 
       element: <App/>, 
+      errorElement: <ErrorPage/>,
       children: [
         { index: true, element: <Subjects/>, loader: subjectLoader },
         { path: 'quizzes/:quizId', element: <Quizzes/>, loader: quizLoader },
