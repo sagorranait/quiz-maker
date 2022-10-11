@@ -14,7 +14,7 @@ export const routers = createBrowserRouter([
         { index: true, element: <Subjects/>, loader: subjectLoader },
         { path: 'quizzes/:quizId', element: <Quizzes/>, loader: quizLoader },
         { path: 'faq', element: <Faq/> },
-        { path: 'analytics', element: <Analytics/> }
+        { path: 'analytics', element: <Analytics/>, loader: subjectLoader }
       ]
     },
   ]);
