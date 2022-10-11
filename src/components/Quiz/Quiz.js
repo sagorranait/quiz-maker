@@ -1,8 +1,12 @@
+import { useState } from 'react';
 import QuizOption from '../QuizOption/QuizOption';
 import './Quiz.css'
 
-const Quiz = ({quizInfo, number}) => {
-  const {id, correctAnswer, options, question} = quizInfo;
+const Quiz = ({quizInfo, number, mark}) => {
+  const {correctAnswer, options, question} = quizInfo;
+  const [clicked, setClicked] = useState(false);
+  
+
   return (
     <div className='quiz'>
         <div className='quiz-title d-flex align-items-center justify-content-between'>
@@ -25,7 +29,13 @@ const Quiz = ({quizInfo, number}) => {
             </span>
         </div>
         <div className='quiz-options'>          
-          {options.map((option, index) => <QuizOption key={index} label={option} answer={correctAnswer}/>)}
+          {options.map((option, index) => <QuizOption 
+            key={index} 
+            label={option} 
+            click = {{clicked, setClicked}}
+            marks = {mark}
+            answer={correctAnswer} 
+          />)}
         </div>
     </div>
   )

@@ -1,8 +1,23 @@
 .quiz-option {
     padding: 15px;
+    background: #fff;
     border: 1px solid #FFC000;
     border-radius: 25px;
     cursor: pointer;
+}
+
+.quiz-option.right{
+    background: #50C878;
+    border: 1px solid #008000;
+}
+
+.quiz-option.wrong{
+    background: #FF5733;
+    border: 1px solid #8b0000;
+}
+
+.quiz-option.right p, .quiz-option.wrong p{
+    color: #fff;
 }
 
 .quiz-option p{
