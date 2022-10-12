@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" height="400" src="https://i.ibb.co/kHJcHZH/readme-banner.png">
+  <img src="https://i.ibb.co/kHJcHZH/readme-banner.png">
 </p>
 
 # QuizMaker
@@ -9,8 +9,8 @@ We have made some fun and interesting quizzes. Regardless of whether you're a be
 #### Live View : [https://quiz-maker-app.netlify.app/](https://quiz-maker-app.netlify.app/).
 
 ## Features of QuizMaker
- - [React Router](https://reactrouter.com/en/main)
- - [React Bootstrap](https://react-bootstrap.github.io/)
- - [Hero Icons](https://heroicons.com/)
- - [Recharts](https://recharts.org/en-US/)
- - [React-toastify](https://fkhadra.github.io/react-toastify/introduction/)
+ - For building the UI, I've used [React Bootstrap](https://react-bootstrap.github.io/). The most popular front-end framework Rebuilt for React.
+ - For the Icons, I've used [Hero Icons](https://heroicons.com/).
+ - I've used [React-toastify](https://fkhadra.github.io/react-toastify/introduction/), to show messages for the Correct answer, the Wrong answers, and also for the eye button to show the Right answer.
+ - I've also used [React Router](https://reactrouter.com/en/main) in this project.
+ - For the Correct, and Wrong answers chart in the Quiz route and also for the Quiz Analytics chart, I've used [Recharts](https://recharts.org/en-US/)
