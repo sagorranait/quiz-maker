@@ -12,3 +12,21 @@
     line-height: 16px;
     color: #5C5C5C;
 }
+
+@media only screen and (max-width: 575.98px) {
+    .quizMaker-title h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .quizMaker-title h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992.98px) {
+    .quizMaker-title h2 {
+        font-size: 28px;
+    }
+}
