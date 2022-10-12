@@ -1,4 +1,6 @@
-![banner](https://i.ibb.co/kHJcHZH/readme-banner.png)
+<p align="center">
+  <img width="100%" height="600" src="https://i.ibb.co/kHJcHZH/readme-banner.png">
+</p>
 
 # QuizMaker
 
