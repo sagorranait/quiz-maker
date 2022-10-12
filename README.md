@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# QuizMaker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We have made some fun and interesting quizzes. Regardless of whether you're a beginner, want to learn more, or just want to have fun.
+
+Live View [https://quiz-maker-app.netlify.app/](https://quiz-maker-app.netlify.app/).
 
 ## Available Scripts
 
