@@ -16,17 +16,30 @@
 @media only screen and (max-width: 575.98px) {
     .quizMaker-title h2 {
         font-size: 25px;
+        line-height: 37px;
+    }
+    
+    .quizMaker-title p {
+        font-size: 15px;
+        line-height: 20px;
     }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     .quizMaker-title h2 {
         font-size: 25px;
+        line-height: 37px;
+    }
+
+    .quizMaker-title p {
+        font-size: 15px;
+        line-height: 20px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992.98px) {
     .quizMaker-title h2 {
         font-size: 28px;
+        line-height: 37px;
     }
 }
