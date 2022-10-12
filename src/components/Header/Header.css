@@ -1,5 +1,10 @@
-.navbar-brand span{
+.navbar-brand a{
+    text-decoration: none;
+}
+
+.navbar-brand span {
     font-size: 22px;
+    color: #fff;
 }
 
 #basic-navbar-nav .nav-links.active {
