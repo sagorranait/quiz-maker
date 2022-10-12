@@ -6,7 +6,7 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 
 const Analytics = () => {
   const quiz = useLoaderData();
-  console.log(quiz);
+
   return (
     <Container>
       <div className='quiz-analytics'>
@@ -14,9 +14,11 @@ const Analytics = () => {
         <div className='chart'>
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart
-              width={500}
-              height={400}
+              width='100%'
+              height='100%'
               data={quiz.data}
+              cx="40%"
+              cy="40%"
             >
               <CartesianGrid strokeDasharray="3 3" stroke='#ffc000a1' />
               <XAxis dataKey="name" stroke='#FF8A00' />

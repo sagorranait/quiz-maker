@@ -22,8 +22,7 @@ const QuizOption = ({label, number, answer, click, marks}) => {
 
   return (
       <div className={`quiz-option ${isCorrect}`} onClick={()=> click.clicked || isCorrectAnswer(label)}>
-          <p>{number+1}. {label}</p>
-          
+          <p>{number+1}. {label}</p>          
       </div>
   )
 }
