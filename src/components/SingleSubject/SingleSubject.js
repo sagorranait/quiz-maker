@@ -4,8 +4,8 @@ import './SingleSubject.css'
 const SingleSubject = ({quiz}) => {
   const {id, logo, name, total} = quiz;
   return (
-    <div className='subject d-flex align-items-center justify-content-between flex-row'>
-        <div className='subject-title d-flex align-items-center flex-row gap-3'>
+    <div className='subject d-flex align-items-center justify-content-between'>
+        <div className='subject-title d-flex align-items-center'>
             <div className='subject-image'>
                 <img src={logo} alt={name} />
             </div>

@@ -2,10 +2,13 @@
     border: 1px solid #FF8A00;
     padding: 10px;
     border-radius: 60px;
+    flex-direction: row;
 }
 
 .subject .subject-title {
     width: 200px;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .subject .subject-title .subject-image {
@@ -51,3 +54,24 @@
     height: 20px;
     color: #fff;
 }
+
+@media only screen and (max-width: 575.98px) {
+    .subject {
+        gap: 10px;
+        border-radius: 20px;
+        flex-direction: column;
+    }
+    
+    .subject .subject-title {
+        flex-direction: column;
+    }
+
+    .subject a {
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {}
+@media screen and (min-width: 768px) and (max-width: 992.98px) {}
+@media screen and (min-width: 993px) and (max-width: 1200.98px) {}
+@media screen and (min-width: 1201px) and (max-width: 1399.98px) {}

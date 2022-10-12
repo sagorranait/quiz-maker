@@ -12,7 +12,7 @@ const QuizSubjects = () => {
     <div className='quiz-subjects'>
         <Container>
             <Row>
-                <Col>
+                <Col sm={12} md={12} lg={12} xl={12} xxl={12}>
                     <QuizMakerTitle title='Quiz Subjects'/>
                     <div className='single-quiz'>
                         {data.map(quiz => <SingleSubject key={quiz.id} quiz={quiz}/>)}
