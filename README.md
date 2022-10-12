@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" height="600" src="https://i.ibb.co/kHJcHZH/readme-banner.png">
+  <img width="100%" height="400" src="https://i.ibb.co/kHJcHZH/readme-banner.png">
 </p>
 
 # QuizMaker
