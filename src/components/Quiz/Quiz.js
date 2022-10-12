@@ -13,7 +13,7 @@ const Quiz = ({quizInfo, number, mark}) => {
 
   return (
     <div className='quiz'>
-        <div className='quiz-title d-flex align-items-center justify-content-between'>
+        <div className='quiz-title d-flex justify-content-between'>
             <p>
                 Quiz {number + 1} : &nbsp;
                 {

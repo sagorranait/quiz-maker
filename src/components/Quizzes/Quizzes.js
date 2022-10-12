@@ -16,17 +16,17 @@ const Quizzes = () => {
     <div className='quiz-area'>
       <Container>
         <Row>
-          <Col sm={12} md={8} lg={8} xl={8} xxl={8}>
+          <Col sm={12} md={12} lg={8} xl={8} xxl={8}>
             <div className='quizzes'>
               {questions.map((data, index) => <Quiz key={data.id} quizInfo={data} number={index} mark={setMarks} />)}
             </div>
           </Col>
-          <Col sm={12} md={4} lg={4} xl={4} xxl={4}>
+          <Col sm={12} md={12} lg={4} xl={4} xxl={4}>
             <div className='quizzes-sidebar'>
               <div className='sidebar-image'>
                 <img src={logo} alt={name}/>
               </div>
-              <h4>{name}</h4>
+              <h4>Quiz Of {name}</h4>
               <QuizChart marks={marks}/>
               <div className='quizzes-marks'>
                 <p>Total Quiz : {total}</p>

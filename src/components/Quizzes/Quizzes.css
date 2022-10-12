@@ -46,3 +46,23 @@
     color: #5C5C5C;
     margin-bottom: 5px;
 }
+
+@media only screen and (max-width: 575.98px) {
+    .quizzes-sidebar {
+        height: auto;
+    }
+
+    .quizzes-marks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .quizzes-sidebar {
+        height: auto;
+    }
+
+    .quizzes-marks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

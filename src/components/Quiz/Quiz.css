@@ -8,6 +8,7 @@
 
 .quiz .quiz-title{
     padding: 20px;
+    align-items: center;
 }
 
 .quiz .quiz-title p {
@@ -32,4 +33,40 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .quiz .quiz-title {
+        align-items: start;
+        padding: 12px;
+    }
+
+    .quiz .quiz-title p {
+        font-size: 15px;
+        width: 85%;
+    }
+
+    .quiz .quiz-options {
+        padding: 13px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 13px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .quiz .quiz-title {
+        align-items: start;
+        padding: 12px;
+    }
+
+    .quiz .quiz-title p {
+        font-size: 15px;
+        width: 85%;
+    }
+
+    .quiz .quiz-options {
+        padding: 13px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 13px;
+    }
 }
