@@ -2,16 +2,6 @@
 
 We have made some fun and interesting quizzes. Regardless of whether you're a beginner, want to learn more, or just want to have fun.
 
-Live View [https://quiz-maker-app.netlify.app/](https://quiz-maker-app.netlify.app/).
+#### Live View : [https://quiz-maker-app.netlify.app/](https://quiz-maker-app.netlify.app/).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features of QuizMaker
